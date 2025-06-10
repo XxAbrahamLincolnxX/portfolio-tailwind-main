@@ -1,6 +1,4 @@
-import SideNavbar from '../app/components/SideNavbar';
 import Header from '../app/components/Header';
-import LeftColumn from '../app/components/LeftColumn';
 import Hero from '../app/components/Hero';
 import Body from '../app/components/Body';
 
