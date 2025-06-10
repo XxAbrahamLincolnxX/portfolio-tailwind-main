@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftColumn = () => {
   return (
-    <div className='flex justify-between w-auto'>
+    <div className='flex justify-between w-full'>
       <p>Column-1 Start</p>
       <p>Column-1 End</p> 
     </div>
