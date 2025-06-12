@@ -7,9 +7,7 @@ export default function Home() {
     <div className="flex bg-amber-500">
 
       <div className='w-screen h-screen'>
-      <Header />
       <Hero />
-      <Body />
       </div>
 
     </div>
