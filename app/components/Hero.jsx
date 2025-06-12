@@ -1,10 +1,24 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className='bg-linear-60 from-fuchsia-950 from-0% via-blue-950 via-50% to-emerald-950 to-100% flex justify-center h-screen items-center'>
-
-        <div className='flex justify-center items-center'>
+    <div className='bg-linear-60 from-fuchsia-950 via-blue-950 to-emerald-950 flex justify-center h-screen items-center'>
+      <div>
+        <div className='flex justify-center gap-12 mb-6'>
+        <Link
+          href="/projects"
+          className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Projects
+        </Link>
+        <Link
+          href="/contact"
+          className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Contact
+        </Link>
+        </div>
        <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 134.4 40"

@@ -1,8 +1,10 @@
 import React from 'react'
+import Link from 'next/link'
+
 
 const Header = () => {
   return (
-    <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start bg-gray-600">
+    <div className="flex items-center justify-between px-6 py-4 bg-gray-600">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 134.4 40"
@@ -40,8 +42,29 @@ const Header = () => {
           <polygon fill="currentColor" points="1.82 20.77 1.82 29.1 7.37 29.11 3.18 20.77 1.82 20.77" />
         </g>
       </svg>
+      {/* Right: Navigation */}
+      <div className="flex items-center gap-6 text-white">
+        <Link
+          href="/"
+          className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Home
+        </Link>
+        <Link
+          href="/projects"
+          className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Projects
+        </Link>
+        <Link
+          href="/contact"
+          className="relative after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full"
+        >
+          Contact
+        </Link>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Header
