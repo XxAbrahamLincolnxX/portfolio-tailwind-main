@@ -20,7 +20,7 @@ export default function FollowCursor() {
 
   useEffect(() => {
     const move = (e) => {
-      mouseX.set(e.clientX - 12) // center the dot
+      mouseX.set(e.clientX - 12)
       mouseY.set(e.clientY - 12)
     }
 

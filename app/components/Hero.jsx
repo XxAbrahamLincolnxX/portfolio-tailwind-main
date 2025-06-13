@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <div className='bg-linear-60 from-fuchsia-950 via-blue-950 to-emerald-950 flex justify-center h-screen items-center'>
+    <div className='w-full h-screen flex justify-center items-center'>
+
       <div>
         <div className='flex justify-center gap-12 mb-6'>
         <Link

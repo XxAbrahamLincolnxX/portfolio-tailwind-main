@@ -4,7 +4,7 @@ import Body from '../app/components/Body';
 
 export default function Home() {
   return (
-    <div className="flex bg-amber-500">
+    <div className="w-screen h-auto flex flex-col">
 
       <div className='w-screen h-screen'>
       <Hero />
