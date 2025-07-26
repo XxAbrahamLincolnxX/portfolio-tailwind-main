@@ -10,7 +10,7 @@ export default function ProjectsPage() {
         
         <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Project Card */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer border border-blue-500/30 hover:shadow-blue-500/40 hover:border-blue-400/50">
             <div className="aspect-video bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
               <div className="text-white text-6xl opacity-50">📱</div>
             </div>
@@ -29,7 +29,7 @@ export default function ProjectsPage() {
           </div>
 
           {/* Second Project Card */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer border border-green-500/30 hover:shadow-green-500/40 hover:border-green-400/50">
             <div className="aspect-video bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
               <div className="text-white text-6xl opacity-50">🌐</div>
             </div>
@@ -48,7 +48,7 @@ export default function ProjectsPage() {
           </div>
 
           {/* Third Project Card */}
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 cursor-pointer border border-orange-500/30 hover:shadow-orange-500/40 hover:border-orange-400/50">
             <div className="aspect-video bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
               <div className="text-white text-6xl opacity-50">🤖</div>
             </div>
