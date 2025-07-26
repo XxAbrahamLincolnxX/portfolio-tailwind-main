@@ -35,7 +35,7 @@ export default function Starfield() {
             84% 58%, 76% 10%, 21% 90%, 40% 65%, 69% 32%,
             12% 15%, 33% 72%, 58% 27%, 79% 44%, 91% 66%
           `.replace(/\s+/g, ' '),
-          animation: 'stars-drift 200s linear infinite, stars-twinkle 4s ease-in-out infinite'
+          animation: 'stars-drift 200s linear infinite, stars-twinkle 10s ease-in-out infinite'
         }}
       />
       <div className="absolute inset-0 bg-black opacity-10" />

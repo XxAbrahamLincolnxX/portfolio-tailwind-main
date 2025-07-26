@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between px-6 py-4 bg-gray-600">
+    <div className="flex items-center justify-between px-6 py-4 bg-red-500">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 134.4 40"
